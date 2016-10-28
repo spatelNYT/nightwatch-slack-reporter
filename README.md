@@ -49,6 +49,9 @@ options = {
   },
   slack_webhook_url: 'https://hooks.slack.com/services/...'
   // This can be specified with SLACK_WEBHOOK_URL environment variable
+  
+  //If you only want failed assertiont in message body, if not specified or false, it will print all assertions summary
+   printFailureAssertionOnly: true
 }
 ```
 
